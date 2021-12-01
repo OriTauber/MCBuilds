@@ -1,0 +1,20 @@
+name: MCBuilds
+version: 1.0
+main: me.ori.main.Main
+api-version: 1.15
+description: a copy plugin
+commands:
+  copy:
+    description: copy the build and save it to file, use /copy <filename>
+  paste:
+    description: paste the build use /paste <filename> <degreesToRotate>
+  copystart:
+    description: pos1 for the copy
+  copyend:
+    description: pos2 for the copy
+  pasterelative:
+    description: can be used after a /paste to paste things directly to a x,y,z axis, use /pr <filename> <degreesToRotate> <x to add/remove> <y to add/remove> <z to add/remove> for massive builds add your axis to the structure detail axis
+
+
+    aliases: pr
+
